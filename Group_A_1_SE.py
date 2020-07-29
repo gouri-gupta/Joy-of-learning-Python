@@ -19,7 +19,7 @@ class Student:
             else:
                 z=to_append_element_in_list(A,p)
         n_a=to_calculate_length_of_list(A)
-        print("🏏 \U0001F3CF🏏🏏 "*9)
+        print(" \U0001F3CF"*9)
         print("----------------------------------------------------------------------------------------------------------------------------------------")
         print(f"There are altogether {n_a} students in the second year computer engineering class who play cricket and their names are as given below...")
         for i in range(0,n_a):
@@ -42,7 +42,7 @@ class Student:
             else:
                 y=to_append_element_in_list(B,p)
         n_b=to_calculate_length_of_list(B)
-        print("🏏 \U0001F3F8 " * 9)
+        print(" \U0001F3F8 " * 9)
         print("----------------------------------------------------------------------------------------------------------------------------------------")
         print(f"There are altogether {n_b} students in the second year computer engineering class who play badminton and their names are as given below...")
         for i in range(0,n_b):
@@ -65,7 +65,7 @@ class Student:
             else:
                 x= to_append_element_in_list(C, p)
         n_c=to_calculate_length_of_list(C)
-        print("🏏 \U000026BD " * 9)
+        print(" \U000026BD " * 9)
         print("----------------------------------------------------------------------------------------------------------------------------------------")
         print(f"There are altogether {n_c} students in the second year computer engineering class who play football and their names are as given below...")
         for i in range(0,n_c):
@@ -77,7 +77,7 @@ class Student:
     def both_cri_bad(self,A,B):
         inter=to_calculate_intersection_between_two_sets(A,B) #inter is a list which containe the names of students who play both cricket and badminton
         length_of_inter=to_calculate_length_of_list(inter)
-        print(("🏏\U0001F3CF🏏🏏"+" and "+"\U0001F3F8")*9)
+        print(("\U0001F3CF"+" and "+"\U0001F3F8")*9)
         print("----------------------------------------------------------------------------------------------------------------------------------------")
         print(f"There are altogether {length_of_inter} students in the second year computer engineering class who play both cricket and badminton...")
         if (length_of_inter>0):
@@ -93,7 +93,7 @@ class Student:
     def cri_or_bad_but_not_both(self,a,b):
         symmetric_difference_of_a_b=to_calculate_symmetric_difference(a,b)
         length_of_symmetric_diff=to_calculate_length_of_list(symmetric_difference_of_a_b)
-        print(("🏏\U0001F3CF🏏🏏" + " or " + "\U0001F3F8") * 9)
+        print(("\U0001F3CF" + " or " + "\U0001F3F8") * 9)
         print("----------------------------------------------------------------------------------------------------------------------------------------")
         print(f"There are altogether {length_of_symmetric_diff} students in the second year computer engineering class who play cricket or badminton but not both")
         if (length_of_symmetric_diff>0):
@@ -114,7 +114,7 @@ class Student:
             else:
                 l_n.append(i)
         length_of_l_n=to_calculate_length_of_list(l_n)
-        print(("neither 🏏\U0001F3CF🏏🏏" + " nor " + "\U0001F3F8") * 9)
+        print(("neither \U0001F3CF" + " nor " + "\U0001F3F8") * 9)
         print("----------------------------------------------------------------------------------------------------------------------------------------")
         print(f"There are altogether {length_of_l_n} students in the second year computer engineering class who play neither cricket nor badminton")
         if (length_of_l_n > 0):
@@ -134,7 +134,7 @@ class Student:
             else:
                 pass
         length_of_cri_foot=to_calculate_length_of_list(cri_foot)
-        print(("🏏\U0001F3CF🏏🏏 and \U000026BD but not \U0001F3F8") * 9)
+        print(("\U0001F3CF and \U000026BD but not \U0001F3F8") * 9)
         print("----------------------------------------------------------------------------------------------------------------------------------------")
         print(f"There are altogether {length_of_cri_foot} students in the second year computer engineering class who play cricket and football but not badminton")
         if (length_of_cri_foot > 0):
