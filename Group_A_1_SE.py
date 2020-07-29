@@ -1,4 +1,4 @@
-from Inbuilt_list_methods_fds import *
+from Inbuilt_list_methods_FDS_SE import *
 class Student:
     def __init__(self,A,B,C):
         self.A=A
